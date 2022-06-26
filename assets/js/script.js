@@ -3,7 +3,7 @@ $(function() {
         var src = $(this).attr('src');
         $(this).wrap('<a href="' + src + '" target="_blank"></a>');
     });
-    $('article > h1').each(function() {
+    $('article > h3').each(function() {
         $('nav.toc > ul').append(
             $('<li>')
                 .attr('class', 'nav-item')
